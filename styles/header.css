@@ -1,0 +1,130 @@
+header {
+    width: 146rem;
+    height: 24.1rem;
+    background: #000000;
+  }
+  .header-left {
+    display: flex;
+    gap: 0;
+  }
+  
+  .logo-search {
+    display: flex;
+    width: 129.8rem;
+    align-items: center;
+    gap: 73.7rem;
+    margin-left: 4rem;
+    margin-bottom: 5.4rem;
+  }
+  
+  .logo {
+    color: #fff;
+    text-align: center;
+    font-family: "Wendy One";
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 1.6rem 0 0 13.8rem;
+    width: 12.4rem;
+    height: 8.4rem;
+  }
+  
+  .search {
+    border: 0.1rem solid #555;
+    width: 28.9rem;
+    height: 4.6rem;
+    flex-shrink: 0;
+    padding: 0.9rem 0.4rem 0.9rem 4rem;
+    background: rgba(243, 243, 243, 0.91) url("../images/logo/search.svg")
+      no-repeat 1.3rem center;
+    background-size: 2rem 2rem;
+    border-radius: 20rem;
+  }
+  
+  .nav-img {
+    height: 3.2rem;
+    width: 3.2rem;
+    fill-opacity: #ffffff;
+  }
+  
+  nav {
+    margin-left: 13rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: flex-start;
+    gap: 8rem;
+  }
+  
+  li a {
+    display: flex;
+    width: auto;
+    height: 5.52rem;
+    padding: 0.4rem 0.8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  @media all and (max-width: 425px){
+    html {
+        font-size: 11.33px;
+      }
+      @media all and (max-width: 375px) {
+        html {
+          font-size: 10px;
+        }
+      }
+      @media all and (max-width: 325px) {
+        html {
+          font-size: 9px;
+        }
+      }
+      body {
+        height: 146.4rem;
+        padding: 0;
+        margin: 0;
+      }
+      header {
+        width: 37.5rem;
+        height: 5.9rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .logo-search {
+        margin: 1.2rem 2.85rem;
+        gap: 13.5rem;
+      }
+      nav {
+        display: none;
+      }
+      .search {
+        width: 10.5rem;
+        height: 1.8rem;
+        background-size: 1.3rem 1.3rem;
+        margin-top: 1rem;
+      }
+      .logo {
+        color:  #fff;
+        font-family: "Titan One";
+        font-size: 1.5rem;
+        width: 4.5rem;
+        height: 3.4rem;
+        margin: 0;
+      }
+  }

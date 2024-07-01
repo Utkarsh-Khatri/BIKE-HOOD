@@ -1,0 +1,419 @@
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+header {
+  width: 146rem;
+  height: 24.1rem;
+  background: #000000;
+}
+
+.logo-search {
+  display: flex;
+  width: 129.8rem;
+  align-items: center;
+  gap: 73.7rem;
+  margin-left: 4rem;
+  margin-bottom: 5.4rem;
+}
+
+.logo {
+  color: #fff;
+  text-align: center;
+  font-family: "Wendy One";
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 1.6rem 0 0 13.8rem;
+  width: 12.4rem;
+  height: 8.4rem;
+}
+
+.search {
+  border: 0.1rem solid #555;
+  width: 28.9rem;
+  height: 4.6rem;
+  flex-shrink: 0;
+  padding: 0.9rem 0.4rem 0.9rem 4rem;
+  background: rgba(243, 243, 243, 0.91) url("../images/logo/search.svg")
+    no-repeat 1.3rem center;
+  background-size: 2rem 2rem;
+  border-radius: 20rem;
+}
+
+.nav-img {
+  height: 3.2rem;
+  width: 3.2rem;
+  fill-opacity: #ffffff;
+}
+
+nav {
+  margin-left: 13rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: flex-start;
+  gap: 8rem;
+}
+
+li a {
+  display: flex;
+  width: auto;
+  height: 5.52rem;
+  padding: 0.4rem 0.8rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  font-family: Verdana;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+section {
+  margin-top: 12.5rem;
+  margin-left: 17rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.spec-img {
+  height: 66rem;
+  width: 112rem;
+  flex-shrink: 0;
+}
+.specs {
+  display: flex;
+  flex-direction: column;
+}
+
+.bike-title {
+  color: #000;
+  font-family: Verdana;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 35rem;
+}
+
+.spec-heading {
+  color: #000;
+  font-family: Verdana;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.specification {
+  display: flex;
+  flex-direction: column;
+  gap: 7.4rem;
+  margin-top: 4.9rem;
+}
+
+.spec-1 {
+  display: inline-flex;
+  gap: 22.6rem;
+}
+
+.spec-font {
+  color: #000;
+  font-family: Verdana;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.spec-description {
+  width: 45.2rem;
+  height: 6rem;
+}
+
+.spec-2 {
+  display: inline-flex;
+  gap: 13.1rem;
+}
+
+.spec-3 {
+  display: inline-flex;
+  gap: 19rem;
+}
+
+.spec-4 {
+  display: inline-flex;
+  gap: 23rem;
+}
+
+.spec-5 {
+  display: inline-flex;
+  gap: 22.6rem;
+}
+
+.spec-6 {
+  display: inline-flex;
+  gap: 20.4rem;
+}
+
+.spec-7 {
+  display: inline-flex;
+  gap: 15rem;
+}
+/*footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10.5rem;
+  width: 146rem;
+  height: 23.5rem;
+  background-color: #000;
+  margin-top: 6.25rem;
+}
+
+.footer-top {
+  display: flex;
+  gap: 44.3rem;
+  margin-left: 19rem;
+}
+
+.logo-ref {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.logo-reference {
+  color: #fff;
+  font-family: "Titan One";
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.reference a {
+  text-decoration: none;
+  font-family: "Tenor Sans";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+  padding-left: 5.6rem;
+}
+
+.social {
+  margin-top: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+
+.follow-msg {
+  color: #fff;
+  font-family: Verdana;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.social-links {
+  padding-left: 5.7rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3.2rem;
+}
+
+.footer-img {
+  width: 3rem;
+  height: 3.2rem;
+  fill: #fff;
+}
+
+.copyright {
+  color: #fff;
+  margin-left: 40rem;
+  font-family: "Tenor Sans";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.site-msg {
+  display: none;
+}
+
+@media all and (max-width: 425px) {
+  html {
+    font-size: 11.33px;
+  }
+  @media all and (max-width: 375px) {
+    html {
+      font-size: 10px;
+    }
+  }
+  @media all and (max-width: 325px) {
+    html {
+      font-size: 9px;
+    }
+  }
+  body {
+    height: 146.4rem;
+  }
+  header {
+    width: 37.5rem;
+    height: 5.9rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .logo-search {
+    margin: 1.2rem 2.85rem;
+    gap: 13.5rem;
+  }
+  nav {
+    display: none;
+  }
+  .search {
+    width: 10.5rem;
+    height: 1.8rem;
+    background-size: 1.3rem 1.3rem;
+  }
+  .logo {
+    color: #fff;
+    font-family: "Titan One";
+    font-size: 1.5rem;
+    width: 4.5rem;
+    height: 3.4rem;
+    margin: 0;
+  }
+  /* section */
+  body {
+    background-color: #7e7e7e;
+  }
+  section {
+    width: 33.6rem;
+    height: 65.7rem;
+    gap: 5rem;
+    margin-top: 4.5rem;
+    margin-left: 2.9rem;
+    align-items: center;
+  }
+  .spec-img {
+    width: 31.6rem;
+    height: 21.1rem;
+  }
+  .bike-title {
+    color: #fff;
+    font-size: 1.4rem;
+    width: 12.2rem;
+    height: 1.8rem;
+    margin-left: 0;
+  }
+  .specification {
+    gap: 2.5rem;
+  }
+  .spec-1 {
+    gap: 10.6rem;
+  }
+  .spec-1 .description{
+    width: 14.4rem;
+  }
+  .spec-1 .description div {
+    display: none;
+  }
+  .spec-2 {
+    gap: 6.9rem;
+  }
+  .spec-3 {
+    gap: 9.6rem;
+  }
+  .spec-4 {
+    gap: 10.8rem;
+  }
+  .spec-5 {
+    gap: 11rem;
+  }
+  .spec-6 {
+    gap: 10rem;
+  }
+  .spec-7 {
+    gap: 8.1rem;
+  }
+  .spec-heading {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 0rem;
+  }
+  .spec-title,.description {
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  /*footer*/
+  footer {
+    width: 37.5rem;
+    height: 11rem;
+    gap: 4rem;
+    align-items: center;
+  }
+  .footer-top {
+    margin-top: 0.6rem;
+    align-items: center;
+    gap: 8.6rem;
+    margin-left: 0rem;
+  }
+  /*logo*/
+  .logo-ref {
+    gap: 1rem;
+  }
+  .logo-reference {
+    font-size: 2rem;
+    width: 11.2rem;
+    height: 2.3rem;
+  }
+  .reference {
+    display: none;
+  }
+  .site-msg {
+    display: inline;
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Tenor Sans";
+  }
+  .follow-msg {
+    font-size: 0.6rem;
+  }
+  .social {
+    gap: 0.8rem;
+    align-items: center;
+    margin-top: 0;
+  }
+  .social-links {
+    gap: 0.8rem;
+    padding-left: 0;
+  }
+  .footer-img {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .copyright {
+    font-size: 0.6rem;
+    margin-left: 3.7rem;
+  }
+}
